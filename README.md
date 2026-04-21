@@ -1,12 +1,35 @@
-# React + Vite
+# 🚀 LukaG Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um portfólio interativo em 3D desenvolvido com React, Vite e JavaScript, apresentando projetos e habilidades com modelos 3D, animações e transições suaves.
 
-Currently, two official plugins are available:
+## 🌐 Deploy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[lukag-portfolio.vercel.app](https://luka-g-portfolio.vercel.app)
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Three.js](https://threejs.org/)
+- JavaScript
+
+## ▶️ Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/LukaGomes/LukaG_Portfolio.git
+
+# Entre na pasta
+cd LukaG_Portfolio
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
+
+## 📬 Contato
+
+- Instagram: [@lukagoms51](https://www.instagram.com/lukagoms51)
+- GitHub: [LukaGomes](https://github.com/LukaGomes)
