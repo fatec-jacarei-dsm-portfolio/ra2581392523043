@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 const Target = (props) => {
     const targetRef = useRef();
 
-    const { scene } = useGLTF("/models/moderm_headphones.glb");
+    const { scene } = useGLTF(`${import.meta.env.BASE_URL}models/moderm_headphones.glb`);
 
     useGSAP(() => {
         if (!targetRef.current) return;
@@ -32,6 +32,6 @@ const Target = (props) => {
     );
 };
 
-useGLTF.preload("/models/moderm_headphones.glb");
+useGLTF.preload(`${import.meta.env.BASE_URL}models/moderm_headphones.glb`);
 
 export default Target;

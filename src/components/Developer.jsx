@@ -3,12 +3,12 @@ import {useAnimations, useFBX, useGLTF} from '@react-three/drei'
 
 const Developer = ({ animationName = 'idle', ...props }) => {
     const group = useRef();
-    const { nodes, materials } = useGLTF('/models/animations/developer.glb')
+    const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}models/animations/developer.glb`)
 
-    const {animations : idleAnimations} = useFBX('/models/animations/idle.fbx');
-    const {animations : saluteAnimations} = useFBX('/models/animations/salute.fbx');
-    const {animations : clappingAnimations} = useFBX('/models/animations/clapping.fbx');
-    const {animations : victoryAnimations} = useFBX('/models/animations/victory.fbx');
+    const {animations : idleAnimations} = useFBX(`${import.meta.env.BASE_URL}models/animations/idle.fbx`);
+    const {animations : saluteAnimations} = useFBX(`${import.meta.env.BASE_URL}models/animations/salute.fbx`);
+    const {animations : clappingAnimations} = useFBX(`${import.meta.env.BASE_URL}models/animations/clapping.fbx`);
+    const {animations : victoryAnimations} = useFBX(`${import.meta.env.BASE_URL}models/animations/victory.fbx`);
 
     idleAnimations[0].name ='idle';
     saluteAnimations[0].name ='salute';
@@ -96,6 +96,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     )
 }
 
-useGLTF.preload('/models/animations/developer.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}models/animations/developer.glb`)
 
 export default Developer;
