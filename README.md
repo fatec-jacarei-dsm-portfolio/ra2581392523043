@@ -9,6 +9,7 @@ Um portfólio interativo em 3D desenvolvido com React, Vite e JavaScript, aprese
 
 ## 🎬 Demonstração em Vídeo
 
+[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Assistir%20Demonstração-red?style=for-the-badge&logo=youtube)](https://youtu.be/6J5an9Z9jX4)
 [![Assistir no Google Drive](https://img.shields.io/badge/Google%20Drive-Assistir%20Demonstração-blue?style=for-the-badge&logo=googledrive)](COLE_O_LINK_DO_DRIVE_AQUI)
 
 ## 🛠️ Tecnologias
