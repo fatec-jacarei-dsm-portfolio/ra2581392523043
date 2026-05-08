@@ -1,4 +1,7 @@
 import React from 'react'
+import githubSvg from '../../public/assets/github.svg';
+import instagramSvg from '../../public/assets/instagram.svg';
+import twitterSvg from '../../public/assets/twitter.svg';
 
 const Footer = () => {
     return (
@@ -16,7 +19,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="social-icon"
                     >
-                        <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
+                        <img src={githubSvg} alt="github" className="w-1/2 h-1/2"/>
                     </a>
                     <a 
                         href="https://www.instagram.com/lukagoms51?igsh=OXNuazM1eGE3dWwy" 
@@ -24,7 +27,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="social-icon"
                     >
-                        <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2"/>
+                        <img src={instagramSvg} alt="instagram" className="w-1/2 h-1/2"/>
                     </a>
                     <a 
                         href="https://twitter.com/" 
@@ -32,7 +35,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="social-icon"
                     >
-                        <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2"/>
+                        <img src={twitterSvg} alt="twitter" className="w-1/2 h-1/2"/>
                     </a>
             </div>
 

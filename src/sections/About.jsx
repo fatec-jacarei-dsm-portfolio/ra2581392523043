@@ -2,6 +2,13 @@ import React, {useState} from 'react'
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 
+import lukaImg from '../../public/assets/luka.jpeg';
+import techStackImg from '../../public/assets/TechStack.jpg';
+import grid3Img from '../../public/assets/grid3.png';
+import grid4Img from '../../public/assets/grid4.png';
+import tickSvg from '../../public/assets/tick.svg';
+import copySvg from '../../public/assets/copy.svg';
+
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
     const handleCopy = () => {
@@ -17,7 +24,7 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/luka.jpeg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
+                        <img src={lukaImg} alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Olá, eu sou o Luka</p>
                             <p className="grid-subtext">Sou estudante de Desenvolvimento de software e 
@@ -27,7 +34,7 @@ const About = () => {
                 </div>
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/TechStack.jpg" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain"/>
+                        <img src={techStackImg} alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Conhecimentos</p>
                             <p className="grid-subtext">Tenho conhecimento em JavaScript, ReactJS, Python e outras tecnologias de desenvolvimento.</p>
@@ -67,7 +74,7 @@ const About = () => {
                 </div>
                 <div className="xl:col-span-2 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[276px] h-fit object-contain"/>
+                        <img src={grid3Img} alt="grid-3" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Minha paixão por programação</p>
                             <p className="grid-subtext"> Adoro resolver problemas e construir coisas através de 
@@ -78,12 +85,12 @@ const About = () => {
                 </div>
                 <div className="xl:col-span-1 xl:row-span-2">
                     <div className="grid-container">
-                        <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"/>
+                        <img src={grid4Img} alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"/>
                         <div className="space-y-2">
                             <p className="grid-subtext text-center">Entre em contato</p>
                         </div>
                         <div className="copy-container" onClick={handleCopy}>
-                            <img src={hasCopied ? 'assets/tick.svg': 'assets/copy.svg'} alt="copy"/>
+                            <img src={hasCopied ? tickSvg : copySvg} alt="copy"/>
                             <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">lukegomes51@gmail.com</p>
                         </div>
                     </div>
