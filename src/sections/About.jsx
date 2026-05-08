@@ -2,12 +2,12 @@ import React, {useState} from 'react'
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 
-import lukaImg from '../../public/assets/luka.jpeg';
-import techStackImg from '../../public/assets/TechStack.jpg';
-import grid3Img from '../../public/assets/grid3.png';
-import grid4Img from '../../public/assets/grid4.png';
-import tickSvg from '../../public/assets/tick.svg';
-import copySvg from '../../public/assets/copy.svg';
+import lukaImg from '/assets/luka.jpeg';
+import techStackImg from '/assets/TechStack.jpg';
+import grid3Img from '/assets/grid3.png';
+import grid4Img from '/assets/grid4.png';
+import tickSvg from '/assets/tick.svg';
+import copySvg from '/assets/copy.svg';
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);

@@ -1,19 +1,19 @@
-import cesarImg from '../../public/assets/cesar.jpeg';
-import daizaImg from '../../public/assets/daiza.jpeg';
-import claudineiImg from '../../public/assets/claudinei.jpeg';
-import fatecImg from '../../public/assets/fatec.jpeg';
-import agriRSlabImg from '../../public/assets/AgriRSlab.png';
-import spotlight2Img from '../../public/assets/spotlight2.png';
-import spotlight1Img from '../../public/assets/spotlight1.png';
-import reactSvg from '../../public/assets/react.svg';
-import cssImg from '../../public/assets/CSS.png';
-import htmlImg from '../../public/assets/HTML.png';
-import figmaImg from '../../public/assets/figma.svg';
-import javascriptImg from '../../public/assets/JavaScript.png';
-import typescriptImg from '../../public/assets/typescript.png';
-import solutionImg from '../../public/assets/solution.jpeg';
-import marsImg from '../../public/assets/mars.jpeg';
-import gatesImg from '../../public/assets/gates.jpeg';
+import cesarImg from '/assets/cesar.jpeg';
+import daizaImg from '/assets/daiza.jpeg';
+import claudineiImg from '/assets/claudinei.jpeg';
+import fatecImg from '/assets/fatec.jpeg';
+import agriRSlabImg from '/assets/AgriRSlab.png';
+import spotlight2Img from '/assets/spotlight2.png';
+import spotlight1Img from '/assets/spotlight1.png';
+import reactSvg from '/assets/react.svg';
+import cssImg from '/assets/CSS.png';
+import htmlImg from '/assets/HTML.png';
+import figmaImg from '/assets/figma.svg';
+import javascriptImg from '/assets/JavaScript.png';
+import typescriptImg from '/assets/typescript.png';
+import solutionImg from '/assets/solution.jpeg';
+import marsImg from '/assets/mars.jpeg';
+import gatesImg from '/assets/gates.jpeg';
 
 export const navLinks = [
     {

@@ -1,7 +1,7 @@
 import React from 'react'
-import githubSvg from '../../public/assets/github.svg';
-import instagramSvg from '../../public/assets/instagram.svg';
-import twitterSvg from '../../public/assets/twitter.svg';
+import githubSvg from '/assets/github.svg';
+import instagramSvg from '/assets/instagram.svg';
+import twitterSvg from '/assets/twitter.svg';
 
 const Footer = () => {
     return (

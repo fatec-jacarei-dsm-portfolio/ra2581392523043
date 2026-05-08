@@ -1,6 +1,6 @@
 import React from 'react'
 import {clientReviews} from "../constants/index.js";
-import starImg from '../../public/assets/star.png';
+import starImg from '/assets/star.png';
 
 const Clients = () => {
     return (
