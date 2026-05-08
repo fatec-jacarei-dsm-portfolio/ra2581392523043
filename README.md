@@ -4,7 +4,12 @@ Um portfólio interativo em 3D desenvolvido com React, Vite e JavaScript, aprese
 
 ## 🌐 Deploy
 
-[lukag-portfolio.vercel.app](https://luka-g-portfolio.vercel.app)
+- Vercel: [luka-g-portfolio.vercel.app](https://luka-g-portfolio.vercel.app)
+- GitHub Pages: [lukagomes.github.io/LukaG_Portfolio](https://lukagomes.github.io/LukaG_Portfolio/)
+
+## 🎬 Demonstração em Vídeo
+
+[![Assistir no Google Drive](https://img.shields.io/badge/Google%20Drive-Assistir%20Demonstração-blue?style=for-the-badge&logo=googledrive)](COLE_O_LINK_DO_DRIVE_AQUI)
 
 ## 🛠️ Tecnologias
 
