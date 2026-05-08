@@ -1,5 +1,7 @@
 import React, {useRef, useState} from 'react'
 import emailjs from "@emailjs/browser";
+import terminalImg from '/assets/terminal.png';
+import arrowUpImg from '/assets/arrow-up.png';
 
 const Contact = () => {
 
@@ -52,9 +54,9 @@ const Contact = () => {
         <section id="contato">
             <div className="c-space my-20">
                 <div className="relative min-h-screen flex items-center justify-center flex-col">
-                    <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen"/>
+                    <img src={terminalImg} alt="terminal background" className="absolute inset-0 min-h-screen"/>
                     <div className="contact-container">
-                        <h3 className="head-text mt-5">Vamos conversar  </h3>
+                        <h3 className="head-text mt-5">Vamos conversar</h3>
                         <p className="text-lg text-white-600 mt-3">
                             Seja para criar um novo site, aprimorar sua plataforma atual ou dar vida a um projeto 
                             único, estou aqui para ajudar.
@@ -98,12 +100,11 @@ const Contact = () => {
                             </label>
                             <button type="submit" className="field-btn" disabled={loading}>
                                 {loading ? 'Sending': 'Enviar mensagem'}
-                                <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow"/>
+                                <img src={arrowUpImg} alt="arrow-up" className="field-btn_arrow"/>
                             </button>
                         </form>
                     </div>
                 </div>
-
             </div>
         </section>
     )

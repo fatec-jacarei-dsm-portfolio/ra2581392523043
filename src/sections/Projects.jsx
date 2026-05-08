@@ -4,6 +4,9 @@ import {Canvas} from "@react-three/fiber";
 import {Center, OrbitControls} from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
+import arrowUpImg from '/assets/arrow-up.png';
+import leftArrowImg from '/assets/left-arrow.png';
+import rightArrowImg from '/assets/right-arrow.png';
 
 const projectCount = myProjects.length;
 
@@ -21,7 +24,7 @@ const Projects = () => {
         })
     }
     return (
-        <section className="c-space my-20"  id="trabalhos">
+        <section className="c-space my-20" id="trabalhos">
             <p className="head-text">Meus trabalhos</p>
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
                 <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
@@ -49,16 +52,16 @@ const Projects = () => {
                         </div>
                         <a className="flex items-center gap-2 cursor-pointer text-white-600" href={currentProject.href} target="_blank" rel="noreferrer">
                             <p>Acesse meus projetos</p>
-                            <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
+                            <img src={arrowUpImg} className="w-3 h-3" alt="arrow" />
                         </a>
                     </div>
 
                     <div className="flex justify-between items-center mt-7">
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-                            <img src="/assets/left-arrow.png" className="w-4 h-4" alt="left arrow" />
+                            <img src={leftArrowImg} className="w-4 h-4" alt="left arrow" />
                         </button>
                         <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-                            <img src="/assets/right-arrow.png" className="w-4 h-4" alt="right arrow" />
+                            <img src={rightArrowImg} className="w-4 h-4" alt="right arrow" />
                         </button>
                     </div>
 
