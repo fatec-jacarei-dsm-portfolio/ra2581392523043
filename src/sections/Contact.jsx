@@ -29,7 +29,7 @@ const Contact = () => {
                 'template_57976jm',
                 {
                     from_name: form.name,
-                    to_name: 'Luke',
+                    to_name: 'Luka',
                     from_email: form.email,
                     to_email: 'lukegomes51@gmail.com',
                     message: form.message
@@ -37,7 +37,7 @@ const Contact = () => {
 
             setLoading(false);
 
-            alert('Your message has been sent.')
+            alert('Sua mensagem foi enviada.')
             setForm({
                 nome: '',
                 email: '',
@@ -46,7 +46,7 @@ const Contact = () => {
         }catch(error){
             setLoading(false);
             console.log(error)
-            alert('Something went wrong.')
+            alert('Alguma coisa deu errado.')
         }
 
     }
